@@ -12,3 +12,10 @@ const total = (billAmountNumber + callRate);
 
 alert("O valor total do jantar, incluindo a taxa de atendimento, é: R$ " + total);
 
+const billAmount = prompt('Que bom ver vocês por aqui novamente, gostaram da pizza? Me informa o valor da conta por favor :)' );
+const customers = prompt('Agora me informa quantas pessoas vão dividir o pagamento');
+const billAmountConverted = parseInt(billAmount);
+const customersConverted = parseInt(customers);
+const splitAmount = (billAmountConverted / customersConverted);
+
+alert('Cada uma/um de vocês vai pagar R$ ' + splitAmount)
